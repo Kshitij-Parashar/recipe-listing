@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly <FilteredRecipes> 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "goBack": [MockFunction],
+        "listen": [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "location": Object {
+          "pathname": "",
+        },
+      }
+    }
+  >
+    <Connect(RecipeByCategory)>
+      <RecipeByCategory
+        error={false}
+        loadRecipes={[Function]}
+        loading={false}
+        setCategory={[Function]}
+      >
+        <h1
+          className="heading center"
+        >
+           Recipes
+        </h1>
+        <div
+          className="recipes-by-category"
+        >
+          <button
+            className="back-button"
+            onClick={[Function]}
+          >
+            &lt;&lt; 
+            Back
+          </button>
+          <RecipeList
+            error={false}
+            loading={false}
+            recipes={Array []}
+          >
+            <h2>
+              No recipes found.
+            </h2>
+          </RecipeList>
+        </div>
+      </RecipeByCategory>
+    </Connect(RecipeByCategory)>
+  </Router>
+</Provider>
+`;

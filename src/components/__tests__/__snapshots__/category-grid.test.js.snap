@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly <CategoryGrid> 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(CategoryGridContainer)>
+    <CategoryGridContainer
+      categories={
+        Object {
+          "idCategory": "1",
+          "strCategory": "Beef",
+          "strCategoryDescription": "Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and essential nutrients.[2]",
+          "strCategoryThumb": "https://www.themealdb.com/images/category/beef.png",
+        }
+      }
+      error={false}
+      loadCategories={[Function]}
+      loading={false}
+    >
+      <h1
+        className="heading center"
+      >
+        Categories
+      </h1>
+      <section
+        className="categories"
+      >
+        <CategoryGrid
+          categories={Array []}
+          error={false}
+          loading={false}
+        >
+          <h2>
+            No category found.
+          </h2>
+        </CategoryGrid>
+      </section>
+      <Pagination
+        currentPage={1}
+        paginate={[Function]}
+        postsPerPage={5}
+        totalPosts={0}
+      >
+        <input
+          className="hide"
+          id="currentPage"
+          onChange={[Function]}
+          value={1}
+        />
+        <div
+          className="pagination"
+        >
+          <button
+            className="previous"
+            id="prevPage"
+            onClick={[Function]}
+          >
+            « Prev
+          </button>
+          <button
+            className="next"
+            id="nextPage"
+            onClick={[Function]}
+          >
+            Next »
+          </button>
+        </div>
+      </Pagination>
+    </CategoryGridContainer>
+  </Connect(CategoryGridContainer)>
+</Provider>
+`;

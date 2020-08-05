@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly <RecipeDetailsContainer> 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "goBack": [MockFunction],
+        "listen": [MockFunction] {
+          "calls": Array [
+            Array [
+              [Function],
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "location": Object {
+          "pathname": "",
+        },
+      }
+    }
+  >
+    <Connect(RecipeDetailsContainer)>
+      <RecipeDetailsContainer
+        error={false}
+        loadRecipe={[Function]}
+        loading={false}
+      >
+        <div
+          className="recipe-details"
+        >
+          <RecipeDetail
+            error={false}
+            goBack={[Function]}
+            loadRecipe={[Function]}
+            loading={false}
+            parsedRecipe={null}
+          >
+            <h2>
+              Recipe not found.
+            </h2>
+          </RecipeDetail>
+        </div>
+      </RecipeDetailsContainer>
+    </Connect(RecipeDetailsContainer)>
+  </Router>
+</Provider>
+`;

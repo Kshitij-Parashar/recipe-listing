@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  margin: 1em 2em;
+  justify-content: flex-end;
+}
+
+.pagination button {
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-right: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+    box-shadow: 1px 1px 1px 1px lightgrey;
+  }
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: darkred;
+  color: white;
+}
+
+.hide{
+  display: none;
+}

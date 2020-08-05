@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly <Pagination> 1`] = `
+<Pagination
+  currentPage={1}
+  paginate={[Function]}
+  postsPerPage={5}
+  totalPosts={10}
+>
+  <input
+    className="hide"
+    id="currentPage"
+    onChange={[Function]}
+    value={1}
+  />
+  <div
+    className="pagination"
+  >
+    <button
+      className="previous"
+      id="prevPage"
+      onClick={[Function]}
+    >
+      « Prev
+    </button>
+    <button
+      className="next"
+      id="nextPage"
+      onClick={[Function]}
+    >
+      Next »
+    </button>
+  </div>
+</Pagination>
+`;
