@@ -32,7 +32,6 @@ it('should change page on action prev and next on prev and next button click', (
   expect(element.find('#currentPage')).toHaveLength(1);
   nextPage.simulate('click')
   expect(element.find('#currentPage')).toHaveLength(1);
-  console.log(element.find('#currentPage').debug());
   expect(element.find('#currentPage').filterWhere((item) => {
     return item.prop('value') === 2;
   })).toHaveLength(1);
